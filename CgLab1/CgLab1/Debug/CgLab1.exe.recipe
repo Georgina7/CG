@@ -1,11 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project>
-  <ProjectOutputs>
-    <ProjectOutput>
-      <FullPath>C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\Debug\CgLab1.exe</FullPath>
-    </ProjectOutput>
-  </ProjectOutputs>
-  <ContentFiles />
-  <SatelliteDlls />
-  <NonRecipeFileRefs />
+  <ProjectOutputs>D:\School\3.2\Computer Graphics\OpenGL Root\CG\CgLab1\Debug\CgLab1.exe</ProjectOutputs>
+  <ContentFiles></ContentFiles>
+  <SatelliteDlls></SatelliteDlls>
+  <NonRecipeFileRefs></NonRecipeFileRefs>
 </Project>

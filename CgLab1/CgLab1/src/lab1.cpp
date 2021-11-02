@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 
+
+
 int main(void)
 {
     GLFWwindow* window;
@@ -71,6 +73,50 @@ int main(void)
         glVertex2f(0.1f, -0.35f);
         glVertex2f(0.1f, 0.15f);
         glEnd();
+
+        //Window 1
+        glBegin(GL_LINE_LOOP);
+        glVertex2f(-0.4f, 0.15f);
+        glVertex2f(-0.4f, -0.1f);
+        glVertex2f(-0.2f, -0.1f);
+        glVertex2f(-0.2f, 0.15f);
+        //glColor3f(0.0f, 0.1f, 0.1f);
+        glEnd();
+
+        //Window 2
+        glBegin(GL_LINE_LOOP);
+        glVertex2f(0.2f, 0.15);
+        glVertex2f(0.2f, -0.1f);
+        glVertex2f(0.4f, -0.1f);
+        glVertex2f(0.4f, 0.15f);
+        glColor3f(1, 1, 1);
+        glEnd();
+
+        //Window Bars 1
+        //Vertical
+        glBegin(GL_LINES);
+        glVertex2f(-0.3f, 0.15f);
+        glVertex2f(-0.3f, -0.1f);
+        glEnd();
+        //Horizontal
+        glBegin(GL_LINES);
+        glVertex2f(-0.4f, 0.025f);
+        glVertex2f(-0.2f, 0.025f);
+        glEnd();
+
+        //Window Bars 2
+        //Vertical
+        glBegin(GL_LINES);
+        glVertex2f(0.3f, 0.15f);
+        glVertex2f(0.3f, -0.1f);
+        glEnd();
+        //Horizontal
+        glBegin(GL_LINES);
+        glVertex2f(0.4f, 0.025f);
+        glVertex2f(0.2f, 0.025f);
+        glEnd();
+        
+
         //circle
         int i;
         float PI = 3.142;
