@@ -64,6 +64,31 @@ int main(void)
 
         glEnd();
 
+        //Door Rectangle
+        glBegin(GL_LINE_LOOP);
+        glVertex2f(-0.1f, 0.15f);
+        glVertex2f(-0.1f, -0.35f);
+        glVertex2f(0.1f, -0.35f);
+        glVertex2f(0.1f, 0.15f);
+        glEnd();
+        //circle
+        int i;
+        float PI = 3.142;
+        GLfloat x = 0.065f;
+        GLfloat y = -0.1f;
+        GLfloat radius = .015f;
+        int triangleAmount = 40;
+        GLfloat twicePi = 2.0f * PI;
+        glBegin(GL_TRIANGLE_FAN);
+        glColor3ub(61, 143, 174);
+        glVertex2f(x, y);
+        for (i = 0; i <= triangleAmount; i++) {
+            glVertex2f(x + (radius * cos(i * twicePi / triangleAmount)),
+                y + (radius * sin(i * twicePi / triangleAmount)));
+
+        }
+        glEnd();
+        
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
 
