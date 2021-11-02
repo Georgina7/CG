@@ -1,0 +1,7 @@
+﻿  lab1.cpp
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(48,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(49,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(50,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(58,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  CgLab1.vcxproj -> C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\Debug\CgLab1.exe
