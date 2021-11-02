@@ -134,7 +134,40 @@ int main(void)
 
         }
         glEnd();
+
+        //circle
         
+        GLfloat k = 0.55f;
+        GLfloat m = 0.75f;
+        GLfloat rad = 0.2f;
+        glBegin(GL_TRIANGLE_FAN);
+        glVertex2f(k, m);
+        int R = 255;
+        int G = 201;
+        int B = 0;
+        for (i = 0; i <= triangleAmount; i++) {
+            glVertex2f(k + (rad * cos(i * twicePi / triangleAmount)),
+                m + (rad * sin(i * twicePi / triangleAmount)));
+            R -= 4;
+            G -= 4;
+            glColor3ub(R, G, B);
+        }
+        glEnd();
+
+        //circle
+
+        GLfloat l = 0.60f;
+        GLfloat n = 0.80f;
+
+        glBegin(GL_TRIANGLE_FAN);
+        glColor3ub(0, 0, 0);
+        glVertex2f(l, n);
+        for (i = 0; i <= triangleAmount; i++) {
+            glVertex2f(l + (rad * cos(i * twicePi / triangleAmount)),
+                n + (rad * sin(i * twicePi / triangleAmount)));
+        }
+        glEnd();
+
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
 
