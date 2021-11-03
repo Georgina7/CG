@@ -1,8 +1,9 @@
 ﻿  lab1.cpp
-C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\CgLab1\src\lab1.cpp(50,27): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\CgLab1\src\lab1.cpp(51,41): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\CgLab1\src\lab1.cpp(52,35): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\CgLab1\src\lab1.cpp(60,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\CgLab1\src\lab1.cpp(88,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\CgLab1\src\lab1.cpp(122,25): warning C4305: 'initializing': truncation from 'double' to 'float'
-  CgLab1.vcxproj -> C:\Users\User\OneDrive\Desktop\OpenGLRoot\CG Lab One\CG\CgLab1\Debug\CgLab1.exe
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(50,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(51,41): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(52,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(61,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(91,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\CgLab1\src\lab1.cpp(128,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  CgLab1.vcxproj -> C:\Users\Lenovo\Desktop\4.1\OpenGL\CG_Lab\CgLab1\Debug\CgLab1.exe

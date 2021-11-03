@@ -34,6 +34,7 @@ int main(void)
 
         //Rectangle code
         glBegin(GL_LINE_LOOP);
+        glColor3f(0, 0, 212);
         glVertex2f(-0.55f, 0.35f);
         glVertex2f(-0.55f, 0.25f);
         glVertex2f(-0.45f, 0.25f);
@@ -42,8 +43,7 @@ int main(void)
         glVertex2f(0.45f, 0.25f);
         glVertex2f(0.55f, 0.25f);
         glVertex2f(0.55f, 0.35f);
-        glColor3f(1, 1, 1);
-        glColor3f(255, 255, 255);
+ 
         glEnd();
 
         //Semicircle  code
@@ -53,6 +53,7 @@ int main(void)
 
         glBegin(GL_LINE_LOOP);
         //glVertex2f(0.5, 0.35);
+        glColor3f(0, 0, 212);
         int M_IN_DEGREE = 180;
         int N_IN_DEGREE = 0;
         for (int nR = N_IN_DEGREE; nR <= M_IN_DEGREE; nR++)
@@ -62,12 +63,12 @@ int main(void)
 
             glVertex2f(fX, fY);
         }
-        glColor3f(1, 1, 1);
-
+ 
         glEnd();
 
         //Door Rectangle
         glBegin(GL_LINE_LOOP);
+        glColor3f(0, 255, 0);
         glVertex2f(-0.1f, 0.15f);
         glVertex2f(-0.1f, -0.35f);
         glVertex2f(0.1f, -0.35f);
@@ -76,6 +77,7 @@ int main(void)
 
         //Window 1
         glBegin(GL_LINE_LOOP);
+        glColor3f(0, 255, 0);
         glVertex2f(-0.4f, 0.15f);
         glVertex2f(-0.4f, -0.1f);
         glVertex2f(-0.2f, -0.1f);
@@ -85,21 +87,23 @@ int main(void)
 
         //Window 2
         glBegin(GL_LINE_LOOP);
+        glColor3f(0, 255, 0);
         glVertex2f(0.2f, 0.15);
         glVertex2f(0.2f, -0.1f);
         glVertex2f(0.4f, -0.1f);
         glVertex2f(0.4f, 0.15f);
-        glColor3f(1, 1, 1);
         glEnd();
 
         //Window Bars 1
         //Vertical
         glBegin(GL_LINES);
+        glColor3f(0, 0, 212);
         glVertex2f(-0.3f, 0.15f);
         glVertex2f(-0.3f, -0.1f);
         glEnd();
         //Horizontal
         glBegin(GL_LINES);
+        glColor3f(0, 0, 212);
         glVertex2f(-0.4f, 0.025f);
         glVertex2f(-0.2f, 0.025f);
         glEnd();
@@ -107,11 +111,13 @@ int main(void)
         //Window Bars 2
         //Vertical
         glBegin(GL_LINES);
+        glColor3f(0, 0, 212);
         glVertex2f(0.3f, 0.15f);
         glVertex2f(0.3f, -0.1f);
         glEnd();
         //Horizontal
         glBegin(GL_LINES);
+        glColor3f(0, 0, 212);
         glVertex2f(0.4f, 0.025f);
         glVertex2f(0.2f, 0.025f);
         glEnd();
